@@ -14,3 +14,13 @@ https://flickity.metafizzy.co
   top: 0;
   z-index: 1000;
 }
+/* Project tile hover effect */
+#projects .tile.is-child.notification {
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+#projects .tile.is-child.notification:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
