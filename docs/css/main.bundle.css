@@ -9,3 +9,8 @@ https://flickity.metafizzy.co
   background-repeat: no-repeat;
   background-color: transparent;
 }
+.navbar.is-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
