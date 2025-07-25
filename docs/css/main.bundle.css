@@ -24,3 +24,23 @@ https://flickity.metafizzy.co
   background-color: #f0f0f0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+.modal {
+  z-index: 9999;
+  overflow-y: auto;
+  padding-top: 60px; /* or height of your sticky navbar */
+}
+
+
+a.project-link {
+  display: block;
+  height: 100%;
+}
+
+
+#projects .tile.is-parent {
+  display: flex;
+}
+
+#projects .tile.is-child.notification {
+  height: 100%;
+}
