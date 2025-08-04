@@ -44,3 +44,39 @@ a.project-link {
 #projects .tile.is-child.notification {
   height: 100%;
 }
+@media screen and (max-width: 1024px) {
+  .navbar-menu {
+    background-color: white;
+  }
+
+  .navbar-menu .navbar-item {
+    color: #1a1a1a !important; /* makes text visible on white background */
+  }
+
+  .navbar-menu .navbar-item:hover {
+    background-color: #f5f5f5;
+    color: #000 !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .navbar-menu {
+    background-color: white;
+  }
+
+  .navbar-menu .navbar-item,
+  .navbar-menu .navbar-item .icon,
+  .navbar-menu .navbar-item i {
+    color: #1a1a1a !important; /* dark text/icons */
+  }
+
+  .navbar-menu .navbar-item:hover {
+    background-color: #f5f5f5;
+    color: #000 !important;
+  }
+
+  /* Also update the mobile-only top-left icons */
+  .navbar-brand .navbar-item.is-hidden-desktop .icon,
+  .navbar-brand .navbar-item.is-hidden-desktop i {
+    color: #1a1a1a !important;
+  }
+}
