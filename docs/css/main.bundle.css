@@ -80,3 +80,23 @@ a.project-link {
     color: #1a1a1a !important;
   }
 }
+@media screen and (max-width: 1024px) {
+  .navbar-menu,
+  .navbar-brand {
+    background-color: white;
+  }
+
+  .navbar-menu .navbar-item,
+  .navbar-brand .navbar-item.is-hidden-desktop,
+  .navbar-brand .navbar-item .icon,
+  .navbar-brand .navbar-item i,
+  .navbar-menu .navbar-item .icon,
+  .navbar-menu .navbar-item i {
+    color: #1a1a1a !important;
+  }
+
+  .navbar-menu .navbar-item:hover {
+    background-color: #f5f5f5;
+    color: #000 !important;
+  }
+}
